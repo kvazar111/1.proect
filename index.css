@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+      padding-left: 10%;
+      padding-right: 10%;
+      box-sizing: border-box; /* Чтобы padding не ломал ширину */
+    }
+
+.conteiner {
+    height: 60px;
+    background-color: rgb(53, 53, 53);
+    width: 100vw; /* вся ширина окна */
+      margin-left: -10.02vw; /* сместить на ширину отступа */
+      position: fixed;
+      
+   
+}
+
+.conteiner1 {
+    position: absolute;
+    color: #ffffff;
+    margin-left: 460px;
+    margin-top: 15px;
+}
+.conteiner3 {
+    position: absolute;
+    color: #ffffff;
+    margin-left: 210px;
+    margin-top: -40px;
+}
+
+.conteiner2 {
+margin-top: 400px;
+}
+
+
+.conteiner4 {
+position: absolute;
+width: 700px;
+height: 20px;
+padding: 8px;
+border-radius: 10px;
+outline: none;
+margin-left: 600px;
+margin-top: 10px;
+border: none;
+}
+    
+.conteiner5 {
+    position: absolute;
+padding: 10px;
+height: 41px;
+width: 100px;
+border-radius: 15px;
+border: none;
+background-color: rgb(0, 68, 255);
+margin-left: 1250px;
+color: #ffffff;
+margin-top: 7px;
+ transform: 1s;
+ transition: background-color 0.3s ease;
+}
+
+
+
+.conteiner5:hover {
+  background-color: rgb(26, 0, 121);
+  transition: background-color 0.3s ease;
+}
+
+.conteiner7 {
+    width: 350px;
+    height: 400px;
+    box-shadow: inset;
+     border: 1px solid black;
+     border-radius: 15px;
+     margin-top: 10px;
+}
+
+
+.conteiner6 {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.conteiner8{
+    margin-left: 15px;
+}
+
+
+#product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 15px;
+    width: 230px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .product-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+
+  .conteiner6:hover {
+    background-color: rgb(95, 95, 95);
+    transition: 1s;
+  }
+
+
+  @media (max-width: 600px) {
+ .conteiner3 {
+    margin-left: -50px;
+    display: none;
+  }
+}
+
+ @media (max-width: 600px) {
+ .conteiner1 {
+    margin-left: 200px;
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+ .conteiner4 {
+    margin-left: 30px;
+    width: 250px;
+    position: absolute;
+
+
+  }
+}
+
+ @media (max-width: 600px) {
+ .conteiner5 {
+    margin-left: 280px;
+    height: 41px;
+    
+  }
+}
+
+
+@media (max-width: 600px) {
+ .conteiner7 {
+    font-size: 0px;
+    margin-left: -5px;
+
+  }
+}
+
+.conteiner8 {
+  margin-left: 30px;
+}
+
+.conteiner9 {
+  margin-top: 100px
+}
+
+@media (max-width: 600px) {
+ .conteiner9 {
+   width: 350px;
+    height: 350px;
+    margin-left: -20px;
+  }
+}
+
+.conteiner10 {
+  margin-left: 800px;
+  margin-top:-450px ;
+  font-size: 40px;
+}
+
+@media (max-width: 600px) {
+ .conteiner10 {
+   margin-left: -14px;
+   font-size: 17px;
+   margin-top: -390px;
+   text-align: center;
+  }
+}
+
+.conteiner11 {
+  color: rgb(139, 139, 139);
+  margin-left: 1100px;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+ .conteiner11 {
+   margin-left: 60px;
+   margin-top: 400px;
+   
+  }
+}
+
+.conteiner12 {
+  margin-left: 1100px;
+   padding: 8px;
+   border-radius: 15px;
+   border: none;
+   font-size: 30px;
+   margin-top: 50px;
+}
+
+.conteiner12:hover {
+   background-color: rgb(128, 128, 128);
+  transition: background-color 0.5s ease;
+}
+
+
+@media (max-width: 600px) {
+ .conteiner12 {
+   margin-left: 55px;
+   margin-top: 10px;
+  }
+}
+
+.conteiner13 {
+  margin-top: 150px;
+  position: absolute;
+  position: absolute;
+  margin-left: -450px;
+}
+
+
+@media (max-width: 600px) {
+ .conteiner13 {
+   margin-left: -240px;
+   margin-top: 60px;
+   width: 300px;
+   height: 300px;
+  }
+}
+
+
+.conteiner14 {
+  
+   height: 100px;
+  background-color: rgb(53, 53, 53);
+    width: 100vw; /* вся ширина окна */
+      margin-left: -10.02vw; /* сместить на ширину отступа */
+}
+
+.conteiner15 {
+  padding: 5px;
+  text-align: center;
+   color: #ffffff;
+}
+
+
+.conteiner16 {
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+   color: #ffffff;
+}
+
+
+.conteiner17 {
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+   color: #ffffff;
+}
+
+
+@media (max-width: 600px) {
+ .conteiner14 {
+  position: absolute;
+   height: 80px;
+  }
+}
+
+
+@media (max-width: 600px) {
+ .conteiner16 {
+  display: none;
+  }
+}
+
+
+.conteiner18 {
+  font-size: 20px;
+  margin-top: -20px;
+  margin-left: 30px;
+   color: #ffffff;
+}
+
+
+@media (max-width: 600px) {
+ .conteiner18 {
+  display: none;
+  }
+}
+
+.conteiner19 {
+  color: #727272;
+  text-align: center;
+  font-size: 50px;
+   margin-top: 200px;
+}
+
+@media (max-width: 600px) {
+ .conteiner19 {
+   font-size: 15px;
+  }
+}
+
+.conteiner20 {
+  width: 1050px;
+  height: 60px;
+   display: inline-block; /* или inline */
+  margin-right: 10px; /* отступ между словами */
+ display: flex;           /* включаем горизонтальное выравнивание */
+  justify-content: center; /* выравнивание по центру по горизонтали */
+  gap: 30px;
+      margin-left: 200px;
+      background-color: #fff;
+      
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 40px;
+       height: 60px;
+    background-color: rgb(32, 32, 32);
+    width: 100vw; /* вся ширина окна */
+      margin-left: -10.02vw; /* сместить на ширину отступа */
+}
+
+.conteiner21 {
+display: inline-block; /* или inline */
+  margin-right: 10px; /* отступ между словами */
+     justify-content: center; /* выравнивание по центру по горизонтали */
+      font-size: 32px;
+       margin-top: 9px;
+      font-weight: bold;
+      
+      color: #ffffff;
+     
+      
+}
+
+.conteiner21:hover {
+  background-color: black;
+  background-color: rgb(32, 32, 32);
+  position: 15px;
+    border: 2px solid #ffffff;  
+}
+
+
+@media (max-width: 600px) {
+ .conteiner21 {
+   font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+ .conteiner20 {
+  gap: 5px;
+  height: 30px;
+  }
+}
+
+
+.conteiner22 {
+ height: 60px;
+    background-color: rgb(53, 53, 53);
+    width: 100vw; /* вся ширина окна */
+      margin-left: -10.02vw; /* сместить на ширину отступа */
+      
+}
